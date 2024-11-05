@@ -2,16 +2,18 @@
 	"schemaVersion": 1,
 	"id": "more_minerals",
 	"version": "${version}",
-	"name": "moreminerals",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "MoreMinerals",
+	"description": "A Minecraft mod for Fabric 1.21 and up, which adds more minerals!",
 	"authors": [
-		"Me!"
+		"NRobot10"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/NRobot10Modding/",
+		"YouTube": "https://youtube.com/@nrobot10/",
+		"Twitch": "https://twitch.tv/nrobot10live/",
+		"sources": "https://github.com/NRobot10Modding/More_Minerals/"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/more_minerals/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +22,9 @@
 		],
 		"fabric-datagen": [
 			"net.nrobot10.moreminerals.MoremineralsDataGenerator"
+		],
+		"client": [
+			"net.nrobot10.moreminerals.MoremineralsClient"
 		]
 	},
 	"mixins": [
